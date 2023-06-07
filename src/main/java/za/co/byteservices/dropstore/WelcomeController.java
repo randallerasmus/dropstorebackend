@@ -1,4 +1,4 @@
-package org.example;
+package za.co.byteservices.dropstore;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -10,4 +10,6 @@ public class WelcomeController {
     public String hello(){
         return "Welcome to the backend";
     }
+
+
 }
