@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7cfb1b06-9a91-47dd-bab9-0206e9d11e52" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/models/Profile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/models/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/repositories/ProfileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WelcomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/WelcomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/WelcomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/models/Profile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/models/Profile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/repositories/ProfileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/repositories/ProfileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/za/co/byteservices/dropstore/repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,12 +63,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "C:/Interfront2023/dropstorebackend/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false",
     "spring.configuration.checksum": "fd99f2f395ff3ec0937f67d0f92af22a",
     "vue.rearranger.settings.migration": "true"
   },
@@ -119,7 +122,8 @@
       <option name="presentableId" value="Default" />
       <updated>1685944429606</updated>
       <workItem from="1685944431179" duration="11577000" />
-      <workItem from="1686085144936" duration="9135000" />
+      <workItem from="1686085144936" duration="13236000" />
+      <workItem from="1686218160029" duration="5356000" />
     </task>
     <task id="LOCAL-00001" summary="Fixed the DB issue">
       <created>1686006948823</created>
@@ -142,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1686088422746</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Rest Api basics configured - laying down the fundamentals getting the basics right">
+      <created>1686172446238</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686172446238</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Rest Api basics configured - laying down the fundamentals getting the basics right">
+      <created>1686172458485</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686172458485</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,6 +169,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fixed the DB issue" />
     <MESSAGE value="Rest Api basics configured" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rest Api basics configured" />
+    <MESSAGE value="Rest Api basics configured - laying down the fundamentals getting the basics right" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rest Api basics configured - laying down the fundamentals getting the basics right" />
   </component>
 </project>
